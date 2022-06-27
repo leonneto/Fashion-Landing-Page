@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    #home{
+        background-color: transparent;
+        border: 0;
+    }
+
+    #home:hover{
+        background-color: transparent;
+        color: gray;
+    }
+    
+    img{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

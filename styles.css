@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#home{
+    height: 80%;
+    border-radius: 50%;
+    border: solid rgb(245, 1, 1) 1px;
+    padding: 5px;
+    background-color: rgb(250, 66, 66);
+}
+
+#home:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: rgb(235, 13, 13);
+}
+
+#title{
+    line-height: 10px;
+    font-family: poppins, sans-serif;
+}
+
+#title2{
+    text-align: center;
+}
+
+#menu{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#menu:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+
+#left_page{
+    display: flex;
+    flex: row ;
+}
+
+#login{
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 20px;
+    margin-left: 25px;
+    border: 2px solid rgb(245, 1, 1);
+    color: rgb(245, 1, 1);
+    cursor: pointer;
+
+}
+
+#login:hover{
+ background-color: rgb(245, 1, 1);
+ color: white;
+ transition: 0.5s;
+}
+
+
+body{
+    background-color: aliceblue ;
+    font-family: poppins, sans-serif;
+    padding: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+    
+    
+}
+
+#subtitle{
+    font-size: 42px;
+    line-height: 10px;
+    font-family: poppins, sans-serif;
+}
+
+#division{
+    border: 1px solid coral;
+    
+    width: 150px;
+    
+}
+
+#strong{
+    font-weight: bold;
+}
+
+
+#btn-buy{
+    display: flex;
+    flex-direction: row;
+}
+
+.button1{
+    text-align: center;
+    padding: 2px;
+    width: 120px;
+    border: 2px solid black;
+    margin-left: 25px;
+    background-color: rgb(19, 189, 189);
+    box-shadow: 1px 15px  25px -5px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+}
+
+.button1:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: rgb(8, 216, 216);
+}
+
+.button2{
+    background-color: rgb(250, 89, 31);
+    text-align: center;
+    padding: 2px;
+    width: 120px;
+    border:  2px solid black;
+    margin-left: 25px;
+    box-shadow: 1px 15px  25px -5px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+}
+
+.button2:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: rgb(248, 69, 4);
+}
+
+
+span{
+    font-weight: 400;
+
+}
+
+
+li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+li:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+ul{
+    list-style: none;
+   
+    
+}
+
+img{
+    border-radius: 85px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    padding: 25px;
+}
+
+footer{
+    
+    color: black;
+    text-align: center;
+    
+}
+#social_media{
+    background-color: rgb(185, 184, 184);
+    
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#instagram{
+    color: white;
+   
+}
+
+#instagram:hover{
+    box-shadow: 0px 10px 20px white;
+    
+}
+
+#github{
+    margin-left: 15px;
+    color: white;
+}
+
+#github:hover{
+    box-shadow: 0px 10px 30px white;
+}
+
